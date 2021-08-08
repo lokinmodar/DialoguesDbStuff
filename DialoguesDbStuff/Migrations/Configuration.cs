@@ -1,6 +1,6 @@
-﻿using System.Data.Entity.Migrations;
+﻿using DialoguesDbStuff.DataAccess;
+using System.Data.Entity.Migrations;
 using System.Data.SQLite.EF6.Migrations;
-using DialoguesDbStuff.DataAccess;
 
 namespace DialoguesDbStuff.Migrations
 {
