@@ -6,13 +6,13 @@ namespace DialoguesDbStuff.Migrations
   using System.Resources;
 
   [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class DialogueMessage : IMigrationMetadata
+    public sealed partial class DialogueMessage_Controlled : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(DialogueMessage));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(DialogueMessage_Controlled));
         
         string IMigrationMetadata.Id
         {
-            get { return "202108080235103_DialogueMessage"; }
+            get { return "202108100236373_DialogueMessage_Controlled"; }
         }
         
         string IMigrationMetadata.Source

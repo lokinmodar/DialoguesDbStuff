@@ -16,7 +16,8 @@
             OriginalLang = c.String(maxLength: 2147483647),
             TranslatedTextMessage = c.String(nullable: false, maxLength: 2147483647),
             TranslationLang = c.String(maxLength: 2147483647),
-            Timestamp = c.DateTime(nullable: false),
+            CreatedDate = c.DateTime(nullable: false),
+            UpdatedDate = c.DateTime(nullable: false),
           })
           .PrimaryKey(t => t.Id);
     }
